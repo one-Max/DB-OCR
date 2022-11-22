@@ -4,6 +4,7 @@ from collections import namedtuple
 import rrc_evaluation_funcs
 import importlib
 import json
+import numpy as np
 def evaluation_imports():
     """
     evaluation_imports: Dictionary ( key = module name , value = alias  )  with python modules used in the evaluation. 
